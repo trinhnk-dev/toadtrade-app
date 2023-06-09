@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chatHeader {
+  display: flex;
+  border-bottom: 3px solid #f5f5f5;
+  margin-left: 10px;
+}
+
+.imgHeader {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.chatHeader h6 {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.chatHeader p {
+  font-size: 14px;
+}
+
+.chatImg {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+}
+
+.chatImg img {
+  width: 100%;
+}
+
+.chatText {
+  width: 80%;
+}
+
+.chatContent {
+  width: 100%;
+}
+
+.chatTime {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.chatTime h6 {
+  color: #a9a9a9;
+}
+
+.chatSend {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sendContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  word-wrap: break-word;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(247, 209, 6, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.sendTime {
+  text-align: right;
+}
+
+.sendContent p {
+  margin-bottom: 0;
+}
+
+.sendContent span {
+  color: #a9a9a9;
+}
+
+.chatReply {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.replyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 90%;
+  word-wrap: break-word;
+  padding: 10px;
+  background-color: rgba(247, 209, 6, 0.75);
+  border-radius: 10px;
+}
+
+.replyContent p {
+  margin-bottom: 0;
+}
+
+.replyContent span {
+  color: #a9a9a9;
+}
+
+.messageSession {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.chatBox {
+  height: 80%;
+  overflow-y: auto;
+}
+
+.chatInput {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.chatInput input {
+  width: 90%;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.chatInput button {
+  width: 10%;
+}
+
+.addInput i {
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sendChat {
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sendChat:hover {
+  color: rgb(247, 209, 6);
+}
+
+.nothing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 100%;
+}
+
+.replyItem {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.replyImg {
+  margin-right: 10px;
+}
+
+.replyImg img {
+  width: 100%;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}

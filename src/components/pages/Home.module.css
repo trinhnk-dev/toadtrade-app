@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  background-color: #f5f5f5;
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  max-height: 236px;
+}
+
+.carouselBig {
+  max-width: 800px;
+  max-height: 235px;
+  cursor: pointer;
+}
+
+.carouselSmall {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: 0.3125rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .carouselSmall {
+    display: none;
+  }
+}
+
+.carouselSTop {
+  height: 100%;
+  cursor: pointer;
+}
+.carouselSTop img {
+  height: 116px;
+  width: 100%;
+}
+
+.carouselSBottom {
+  height: 100%;
+  cursor: pointer;
+}
+.carouselSBottom img {
+  height: 116px;
+  width: 100%;
+}
+
+.carousel-item {
+  max-height: 100%;
+}
+
+.productContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.productItem {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  transition: 0.5s all;
+}
+
+@media (max-width: 1060px) {
+  .productItem {
+    width: 25%;
+  }
+}
+
+@media (max-width: 792px) {
+  .productItem {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 630px) {
+  .productItem {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .productItem {
+    width: 100%;
+  }
+}
+
+.productItem:hover {
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 7px 0px;
+  z-index: 10;
+}
+
+.productTitle h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.productImage {
+  cursor: pointer;
+}
+
+.productImage img {
+  width: 188px;
+  height: 188px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.productText {
+  width: 80%;
+  cursor: pointer;
+}
+
+.productText h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.productText h6 {
+  font-size: 14px;
+  color: #e91e63;
+}
+
+.infoFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.infoFooter span {
+  font-weight: 500;
+}
+
+.subBanner {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+}
+
+.subBannerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  text-align: center;
+}
+
+@media (max-width: 892px) {
+  .subBannerItem {
+    width: 25%;
+    margin-top: 10px;
+  }
+}
+/* 
+@media (max-width: 630px) {
+  .subBannerItem {
+    width: 33.33%;
+  }
+} */
+@media (max-width: 480px) {
+  .subBannerItem {
+    width: 50%;
+  }
+}
+
+.subBannerImg img {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #f5f5f5;
+  cursor: pointer;
+}
+
+.subBannerItem a {
+  width: 85%;
+  color: black;
+  text-decoration: none;
+}
